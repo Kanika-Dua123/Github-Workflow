@@ -1,9 +1,8 @@
-# This is a basic workflow to help you get started with Actions
-
 name: kanika-runner
 
 # Controls when the workflow will run
 on:
+
    workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -20,4 +19,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo running on self-hosted runner
+        run: echo Running on self hosted runner
